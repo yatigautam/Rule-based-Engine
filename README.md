@@ -31,4 +31,3 @@ graph TD;
     C -->|Sends Response| B
     B -->|Displays Result| A
 
----
