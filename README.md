@@ -30,3 +30,12 @@ graph TD;
     D -->|Returns Result| C
     C -->|Sends Response| B
     B -->|Displays Result| A
+
+---
+
+## Features
+Dynamic Rule Creation: Generate ASTs from conditional rule strings.
+Rule Combination: Combine multiple rules logically using AND/OR operators.
+Rule Evaluation: Evaluate JSON data against the combined rules to determine eligibility.
+Error Handling: Detect invalid rules or missing data attributes.
+Modifiable Rules: Modify rules dynamically by updating AST nodes.
